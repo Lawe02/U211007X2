@@ -1,7 +1,7 @@
 {
     "headline" : "Welcome to Exercise1", 
     "intro" : "This is a short introduction",
-    "articleImage": "../images/duck.jpg"
+    "articleImage": "./images/duck.jpg"
 
     
 }
