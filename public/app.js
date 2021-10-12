@@ -1,3 +1,5 @@
+ 'use strict'
+ 
  let dataURL = '../data/exercise1.json';
  let req = new XMLHttpRequest();
  req.open('GET', dataURL); 
