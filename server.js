@@ -1,10 +1,12 @@
 'use strict'
 
 const express = require('express');
-const router = require('./routes');
+
 const app = express();
 const port = 8022;
 const indexRouter = require('./routes/index');
+
+app.use(express.urlencoded());
 
 app.use(express.static('public'));
 

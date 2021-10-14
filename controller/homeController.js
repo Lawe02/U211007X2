@@ -25,5 +25,6 @@ exports.editUpdate = (req, res) => {
         if (err) throw err; 
         console.log('File is created successfully!');
     });
+    res.sendfile('./public/edit.html')
 };
 
